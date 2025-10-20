@@ -117,25 +117,24 @@ export default function App() {
       </div>
 
       <div className="flex flex-col-reverse lg:flex-row  gap-8 mt-10 px-4 md:px-8 lg:px-20">
-        <div className="flex flex-col items-start lg:items-start ml-10">
-          <h1 className="text-3xl md:text-4xl xl:text-6xl font-bold mb-4 ">
+        <div className="flex flex-col items-start lg:items-start ">
+          <h1 className="text-3xl md:text-4xl xl:text-6xl font-bold mb-4 ml-8">
             <span className="block whitespace-nowrap">Scalable Apps</span>
             <span className="block whitespace-nowrap">with frameworks</span>
           </h1>
 
-          <p className="text-gray-700 mb-6 max-w-md">
+          <p className="text-gray-700 mb-6 max-w-md ml-8">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore
             voluptate et neque earum iste hic consequatur nulla deserunt
             architecto numquam!
           </p>
-
-          <div className="flex flex-col md:flex-row gap-3 w-full md:w-auto">
-            <Button className="bg-black text-white w-full md:w-auto">
+          <div className="flex flex-col md:flex-row gap-3 w-full md:w-auto items-center justify-center md:ml-8">
+            <Button className="bg-black text-white w-[90%] md:w-auto">
               Download for Free
             </Button>
             <Button
               variant="outline"
-              className="border-gray-300 w-full md:w-auto"
+              className="border-gray-300 w-[90%] md:w-auto"
             >
               Github Repo
             </Button>
@@ -148,7 +147,7 @@ export default function App() {
           className="w-150 md:self-center lg:w-90 object-contain mb-20  lg:mb-0 flex  xl:w-120  lg:absolute lg:right-15 lg:top-20"
         />
       </div>
-      <div className="  mx-10 sm:mx-15  lg:ml-30 mt-30 ">
+      <div className="  mx-15 sm:mx-15  lg:ml-30 mt-30 ">
         <h3 className="text-3xl md:text-4xl font-semibold  ">
           Everything you need to start a website
         </h3>
